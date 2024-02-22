@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Таблиця з обєднаними клітинками</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        }
+        table{
+        border-collapse: collapse;
+        }
+        </style>
+</head>
+<body>
+    <h>Для створення сайтів використовують наступні засоби:</h>
+    <p></p>
+    <table>
+        <caption>Вебтехнології</caption>
+        <thead>
+            <tr>
+                <th>Назва технології</th>
+                <th>Front-end</th>
+                <th>Back-end</th>
+                <th>Full stack</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td></td>
+                <td>+</td>
+                <td rowspan="5">+</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td></td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>JS</td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td>Ruby</td>
+                <td>+</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>+</td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            
+        </tfoot>
+    </table>
+</body>
+</html>
